@@ -1,0 +1,312 @@
+‘15:18:21.582 [Test worker] INFO  com.intuit.karate.Suite - backed up existing 'build\karate-reports' dir to: build\karate-reports_1726258701580
+_15:18:21.594 [Test worker] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+¦15:18:22.448 [pool-1-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - classpath:users/delete/../post/user-post-snippets.feature - call by tag at line 5: create
+B15:18:22.630 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+&1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+71 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+"1 > Accept-Encoding: gzip,deflate
+
+
+B15:18:22.630 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+%1 > POST https://reqres.in/api/users
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+71 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+"1 > Accept-Encoding: gzip,deflate
+*{"name":"Fernando","job":"zion resident"}
+
+\15:18:22.975 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 342
+1 < 200
+(1 < Date: Fri, 13 Sep 2024 20:18:23 GMT
+21 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+Ö1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1726167006&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=qyq1kIV598lnS9mOGfzwYT8NlJLddqAGi8u3ZGvo%2Bn4%3D"}]}
+­1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1726167006&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=qyq1kIV598lnS9mOGfzwYT8NlJLddqAGi8u3ZGvo%2Bn4%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+#1 < Access-Control-Allow-Origin: *
+.1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+!1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 1965
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+!1 < CF-RAY: 8c2ad380bcb20341-MIA
+™{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+B15:18:22.986 [pool-1-thread-2] DEBUG com.intuit.karate - request:
++1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+71 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+"1 > Accept-Encoding: gzip,deflate
+
+
+\15:18:23.210 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 223
+1 < 200
+(1 < Date: Fri, 13 Sep 2024 20:18:23 GMT
+21 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+Ô1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1726167905&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=SmBu1mQ8UPvqtyaKaeVAV0LKIm1bEMbK4hmAq5dHdv4%3D"}]}
+«1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1726167905&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=SmBu1mQ8UPvqtyaKaeVAV0LKIm1bEMbK4hmAq5dHdv4%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+#1 < Access-Control-Allow-Origin: *
+.1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+!1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 60
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+!1 < CF-RAY: 8c2ad382495cda27-MIA
+å{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+\15:18:23.210 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 579
+1 < 201
+(1 < Date: Fri, 13 Sep 2024 20:18:23 GMT
+21 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 91
+1 < Connection: keep-alive
+Ô1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1726258703&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=KNIRfIwC368sw6ezJxxVhMKnuEYhxnl0cSk9v9gyS7c%3D"}]}
+«1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1726258703&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=KNIRfIwC368sw6ezJxxVhMKnuEYhxnl0cSk9v9gyS7c%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+#1 < Access-Control-Allow-Origin: *
+-1 < Etag: W/"5b-79XG4/Fzj2UAVCvIhKuXKcUnmaI"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+!1 < CF-RAY: 8c2ad380ca48030a-MIA
+\{"name":"Fernando","job":"zion resident","id":"104","createdAt":"2024-09-13T20:18:23.691Z"}
+
+v15:18:23.213 [pool-1-thread-1] ERROR com.intuit.karate - classpath:users/delete/../post/user-post-snippets.feature:10
+And ref contacId = $.id
+?no step-definition method match found for: ref contacId = $.id
+>classpath:users/delete/../post/user-post-snippets.feature:10
+f15:18:23.217 [pool-1-thread-1] ERROR com.intuit.karate - classpath:users/delete/user-delete.feature:4
+9* call read("../post/user-post-snippets.feature@create")
+?no step-definition method match found for: ref contacId = $.id
+=classpath:users/delete/../post/user-post-snippets.feature:10
+.classpath:users/delete/user-delete.feature:4
+B15:18:23.230 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+%1 > POST https://reqres.in/api/users
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 30
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+71 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+"1 > Accept-Encoding: gzip,deflate
+{"name":"Juan","job":"Leader"}
+
+B15:18:23.232 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+%1 > POST https://reqres.in/api/users
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 32
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+71 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+"1 > Accept-Encoding: gzip,deflate
+!{"name":"Carlos","job":"doctor"}
+
+\15:18:23.630 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 397
+1 < 201
+(1 < Date: Fri, 13 Sep 2024 20:18:24 GMT
+21 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 82
+1 < Connection: keep-alive
+Ö1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1726258704&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oyqMCLTN%2BME7f1H2B2yP66P2OGIuyfI2vs1UE4JoXpc%3D"}]}
+­1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1726258704&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oyqMCLTN%2BME7f1H2B2yP66P2OGIuyfI2vs1UE4JoXpc%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+#1 < Access-Control-Allow-Origin: *
+-1 < Etag: W/"52-vyhMgGp1PVjLsrPMlX9n+8i3K1w"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+!1 < CF-RAY: 8c2ad383797b4bff-MIA
+S{"name":"Carlos","job":"doctor","id":"760","createdAt":"2024-09-13T20:18:24.115Z"}
+
+B15:18:23.641 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+%1 > POST https://reqres.in/api/users
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+71 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+"1 > Accept-Encoding: gzip,deflate
+#{"name":"Gustavo","job":"teacher"}
+
+\15:18:23.667 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 437
+1 < 201
+(1 < Date: Fri, 13 Sep 2024 20:18:24 GMT
+21 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 80
+1 < Connection: keep-alive
+Ö1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1726258704&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oyqMCLTN%2BME7f1H2B2yP66P2OGIuyfI2vs1UE4JoXpc%3D"}]}
+­1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1726258704&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oyqMCLTN%2BME7f1H2B2yP66P2OGIuyfI2vs1UE4JoXpc%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+#1 < Access-Control-Allow-Origin: *
+-1 < Etag: W/"50-bgs705W3WSqX0U9UesSdEnGkuts"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+!1 < CF-RAY: 8c2ad383aec1a668-MIA
+Q{"name":"Juan","job":"Leader","id":"493","createdAt":"2024-09-13T20:18:24.153Z"}
+
+B15:18:23.707 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+%1 > POST https://reqres.in/api/users
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+71 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+"1 > Accept-Encoding: gzip,deflate
+{"name":"Juan","job":"pilot"}
+
+:---------------------------------------------------------
+4feature: classpath:users/delete/user-delete.feature
+7scenarios:  1 | passed:  0 | failed:  1 | time: 0,7787
+:---------------------------------------------------------
+
+‘15:18:23.957 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 5 (4 remaining) classpath:users/delete/user-delete.feature
+:---------------------------------------------------------
+.feature: classpath:users/get/user-get.feature
+7scenarios:  2 | passed:  2 | failed:  0 | time: 0,7672
+:---------------------------------------------------------
+
+‹15:18:24.029 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (3 remaining) classpath:users/get/user-get.feature
+\15:18:24.097 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 455
+1 < 201
+(1 < Date: Fri, 13 Sep 2024 20:18:24 GMT
+21 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 84
+1 < Connection: keep-alive
+Ö1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1726258704&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oyqMCLTN%2BME7f1H2B2yP66P2OGIuyfI2vs1UE4JoXpc%3D"}]}
+­1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1726258704&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oyqMCLTN%2BME7f1H2B2yP66P2OGIuyfI2vs1UE4JoXpc%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+#1 < Access-Control-Allow-Origin: *
+-1 < Etag: W/"54-zZYINN12XjYhgzjFSsIlWr8hKu4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+!1 < CF-RAY: 8c2ad3863c5b67e6-MIA
+U{"name":"Gustavo","job":"teacher","id":"709","createdAt":"2024-09-13T20:18:24.554Z"}
+
+B15:18:24.105 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+%1 > POST https://reqres.in/api/users
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 15
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+71 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+"1 > Accept-Encoding: gzip,deflate
+{"name":"Juan"}
+
+\15:18:24.136 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 429
+1 < 201
+(1 < Date: Fri, 13 Sep 2024 20:18:24 GMT
+21 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 79
+1 < Connection: keep-alive
+Ö1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1726258704&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oyqMCLTN%2BME7f1H2B2yP66P2OGIuyfI2vs1UE4JoXpc%3D"}]}
+­1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1726258704&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oyqMCLTN%2BME7f1H2B2yP66P2OGIuyfI2vs1UE4JoXpc%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+#1 < Access-Control-Allow-Origin: *
+-1 < Etag: W/"4f-SbhPTNxeJp7yfkDPKTxSd6eBLLs"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+!1 < CF-RAY: 8c2ad386bf747425-MIA
+P{"name":"Juan","job":"pilot","id":"231","createdAt":"2024-09-13T20:18:24.622Z"}
+
+B15:18:24.144 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+%1 > POST https://reqres.in/api/users
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 31
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+71 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8)
+"1 > Accept-Encoding: gzip,deflate
+ {"name":"%%$%%$","job":"pilot"}
+
+\15:18:24.524 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 419
+1 < 201
+(1 < Date: Fri, 13 Sep 2024 20:18:25 GMT
+21 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 65
+1 < Connection: keep-alive
+Ö1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1726258704&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oyqMCLTN%2BME7f1H2B2yP66P2OGIuyfI2vs1UE4JoXpc%3D"}]}
+­1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1726258704&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=oyqMCLTN%2BME7f1H2B2yP66P2OGIuyfI2vs1UE4JoXpc%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+#1 < Access-Control-Allow-Origin: *
+-1 < Etag: W/"41-LckwuUz9yChj3Fv8XTSg+NJ3leE"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+!1 < CF-RAY: 8c2ad3891a8967ce-MIA
+B{"name":"Juan","id":"636","createdAt":"2024-09-13T20:18:25.007Z"}
+
+`15:18:24.529 [pool-1-thread-1] ERROR com.intuit.karate - classpath:users/put/user-put.feature:5
+5And reques {"name": "Ramiro","job": "zion resident"}
+\no step-definition method match found for: reques {"name": "Ramiro","job": "zion resident"}
+(classpath:users/put/user-put.feature:5
+\15:18:24.537 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 393
+1 < 201
+(1 < Date: Fri, 13 Sep 2024 20:18:25 GMT
+21 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 81
+1 < Connection: keep-alive
+Ú1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1726258705&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=GRscUGdQ6ZL21e%2Fhwg5Ci0Ez%2B0q%2FaqNB8fdZb5t3U7w%3D"}]}
+±1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1726258705&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=GRscUGdQ6ZL21e%2Fhwg5Ci0Ez%2B0q%2FaqNB8fdZb5t3U7w%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+#1 < Access-Control-Allow-Origin: *
+-1 < Etag: W/"51-AhdNlSI30WBmDt45mV1sSIUeVjI"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+!1 < CF-RAY: 8c2ad3892827a4da-MIA
+R{"name":"%%$%%$","job":"pilot","id":"118","createdAt":"2024-09-13T20:18:25.017Z"}
+
+:---------------------------------------------------------
+0feature: classpath:users/post/user-post.feature
+7scenarios:  6 | passed:  6 | failed:  0 | time: 2,6045
+:---------------------------------------------------------
+
+15:18:24.694 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 5 (1 remaining) classpath:users/post/user-post.feature
+:---------------------------------------------------------
+.feature: classpath:users/put/user-put.feature
+7scenarios:  1 | passed:  0 | failed:  1 | time: 0,0004
+:---------------------------------------------------------
+
+‹15:18:24.734 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 5 of 5 (0 remaining) classpath:users/put/user-put.feature
+Karate version: 1.2.0.RC4
+8======================================================
+6elapsed:   3,86 | threads:    2 | thread time: 4,15 
+4features:     4 | skipped:    1 | efficiency: 0,54
+-scenarios:   10 | passed:     8 | failed: 2
+8======================================================
+>>> failed features:
+\no step-definition method match found for: reques {"name": "Ramiro","job": "zion resident"}
+'classpath:users/put/user-put.feature:5
+?no step-definition method match found for: ref contacId = $.id
+=classpath:users/delete/../post/user-post-snippets.feature:10
+.classpath:users/delete/user-delete.feature:4
+<<<
+
+FHTML report: (paste into browser to view) | Karate version: 1.2.0.RC4
+cfile:///C:/Users/Fernando%20Navas/IdeaProjects/KarateDemo/build/karate-reports/karate-summary.html
+D===================================================================
+
